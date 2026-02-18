@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/contact-me">
+       <label for="email">userName:</label> <input type="text" id="email" placeholder="email" required><br>
+     <label for="user_password">password</label> <input type="password" id="user_password"><br>
+     Date: <input type="date"><br>
+     File: <input type="file"><br>
+     Range: <input type="range"><br>
+     Poke me <input type="button" value="Poke"><br>
+     Gender:<br>
+     <label for="male">Male:</label>
+     <input type="radio" id="male" name="gender" value="male"><br>
+     <label for="female">Female:</label>
+     <input type="radio" name="gender" id="female" value="female"><br>
+     <label for="other" >Other:</label>
+     <input type="radio" name="gender"id="other" value="other"><br>
+     Skills:<br>
+     <label for="c">C</label>
+     <input type="checkbox"name="lang" id="c"><br>
+     <label for="java">Java</label>
+     <input type="checkbox"name="lang" id="java"><br>
+     <label for="html">Html</label>
+     <input type="checkbox"name="lang" id="html"><br>
+     <label for="country">Select Your country</label>
+     <select name="country" id="country">
+         <option value="india">India</option>
+          <option value="us">US</option>
+          <option value="uk">UK</option>
+          <option value="other">Other</option>
+       </select><br>
+        <br>
+       <p>Tell me about yourself</p>
+       <textarea name="yourself" id="yourself" cols="30" rows="4"></textarea><br>
+       <input type="submit">
+
+    </form>
+
+</body>
+</html>
